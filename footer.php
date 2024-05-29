@@ -19,7 +19,7 @@
                 <div class="col-sm-4 text-white">
                     <h4 class="text-center"> Nos services</h4>
                     <p> <a href="" class="text-white page-link text-center">Restauration</a></p>
-                    <p> <a href="" class="text-white page-link text-center">Formation</a></p>
+                    <p> <a href="" class="text-white page-link text-center">Formatiion</a></p>
 
 
 
@@ -28,8 +28,10 @@
         
             </div>
 
+              
             <div class="row mt-3"> 
                 <div class="col-sm-12 col-12 text-white">
+               <
 
                     <H3 class="text-center">Suivez-Nous</H3>
                     <div class="row">
