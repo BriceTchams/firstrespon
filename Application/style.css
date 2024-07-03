@@ -1,0 +1,35 @@
+/* :root{
+    mainColor:rgb(2, 156, 177);
+}
+
+.rechercher{
+} */
+
+:root{
+    --MainColor:rgba(128, 128, 128, 0.615);
+    --ActiveColor :rgba(128, 128, 128, 0.615);
+}
+
+.bgSide{
+    /* color : rgba(0, 0, 0, 0.525); */
+    /* background-color: rgba(6, 92, 103, 0.809); */
+    min-height: 785px;
+    /* color: rgba(128, 128, 128, 0.415); */
+}
+.ligneSide{
+    border-radius: 1px;
+}
+.bgSideItem{
+    background-color: rgba(217, 217, 217,0.15);
+    height: 55px;
+    border-radius: 12px;
+}
+
+.bgSide1{
+    text-align: center;
+
+}
+/* .carousel-item:first-child{
+    width: 50%;
+    height: 100%;
+} */

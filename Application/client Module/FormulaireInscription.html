@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de creation de compte </title>
+
+    <!-- importation de la librairie font AweSome -->
+    <link rel="stylesheet" href="./vendor/fontawesome/css/all.min.css">
+    <script src="./vendor/fontawesome/js/all.min.js"></script>
+
+    <!-- importation de la librairie bootstrap -->
+    <link rel="stylesheet" href="./vendor/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="./vendor/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./style.css"></script>
+
+    <!-- jquery library -->
+    <script src="./datatables  library/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="./datatables  library/jquery/jquery-ui.css">
+    <script src="./datatables  library/jquery/jquery-ui.js"></script>
+
+
+
+    <script src="./autoComplete.js"></script>
+
+</head>
+<body 
+style="background-image: url('./image/fisrtBack.PNG') ; background-size: 100% 1300px;
+background-repeat: no-repeat;
+background-position: center;
+
+
+"
+>
+   <!-- background-size: 100%;
+background-repeat: no-repeat; -->
+
+<div class="container-fluid " >
+
+        <div class="row ">
+             
+            <div class="col-md-3 col-12 col-sm-3">
+
+            </div>
+            <!-- <div class="col-md-1 col-1 col-sm-1"></div> -->
+            <div class="col-md-5 col-12 col-sm-3">
+
+                <div class="card " style="margin-top: 27%; border-radius:15px; background-color: rgba(255, 255, 255, 0.457);" >
+                    <!-- <div class="card-body"> -->
+                        <div class="row ">
+                            <div class="col-md-7 col-12"  >
+                                <form action="" class="form mx-3 " >
+
+                                    <!-- <label for="Email" class="form-label text-left " style="margin-top: 2%; margin-bottom: 1%;  margin-left: 3.5%; font-family: Italic;"><strong>Nom</strong></label>
+                    
+                                    <input type="text" name="" id="" class="form-control" placeholder="Nom" style="border-radius:60px ; background-color: rgb(217, 217, 217);"> -->
+
+                                    <div class="form-floating mt-4">
+                                        <input type="text" class="form-control" id="floatingPassword" placeholder="Nom" style="border-radius: 70px; background-color: rgb(217, 217, 217);">
+                                        <label for="floatingPassword">Nom</label>
+                                      </div>
+                                    <!-- h;gj -->
+                                       
+<!-- 
+                                        <label for="Email" class="form-label text-left " style="margin-top: 3%; margin-bottom: 1%;  margin-left: 3.5%; font-family: Italic;"><strong>Email</strong></label>
+                    
+                                    <input type="email" name="" id="" class="form-control" placeholder="Email" style="border-radius:60px ; background-color: rgb(217, 217, 217);">
+ -->
+                                    <div class="form-floating mt-3">
+                                        <input type="Email" class="form-control" id="floatingPassword" placeholder="Email" style="border-radius: 70px; background-color: rgb(217, 217, 217);">
+                                        <label for="floatingPassword">Email</label>
+                                    </div>
+
+                                    <!-- champ ville -->
+                                    <!-- <label for="Email" class="form-label text-left " style="margin-top: 3%; margin-bottom: 2%;  margin-left: 3.5%; font-family: Italic;"><strong>Ville</strong></label>
+                    
+                                    <input type="text" name="" id="champVille" class="form-control" placeholder="ville" style="border-radius:60px ; background-color: rgb(217, 217, 217);">
+                                     -->
+
+
+
+
+
+                                    <!-- </select> -->
+                                    <div class="form-floating mt-4">
+                                        <input type="text" class="form-control" id="champVille" placeholder="Ville" style="border-radius: 70px; background-color: rgb(217, 217, 217);">
+                                        <label for="floatingPassword">Ville</label>
+                                      </div>
+
+
+
+                                    <!-- type de personne -->
+
+                                    <!-- <label for="MotDePasse" class="form-label text-left " style="margin-top: 3%; margin-bottom: 1%; margin-left: 3.5%; font-family: Italic;"> <strong>Type</strong> </label> 
+                                    <select name="" id="" class="form-control" style="border-radius:60px ; background-color: rgb(217, 217, 217);">
+                                        <option value="Particulier" selected>Particulier</option>
+                                        <option value="Entrepreise"> Entreprise</option>
+                                    </select> -->
+
+                                    <div class="form-floating mt-4">
+                                        <!-- <input type="Email" class="form-control" id="floatingPassword" placeholder="Email" style="border-radius: 70px; background-color: rgb(217, 217, 217);"> -->
+                                        <select name="" id="" class="form-control" style="border-radius:60px ; background-color: rgb(217, 217, 217);">
+                                            <option value="Particulier" selected>Particulier</option>
+                                            <option value="Entreprise"> Entreprise</option>
+                                        </select>     
+                                          <label for="floatingPassword">type</label>
+
+                                      </div>
+
+                    
+                                       <!-- champ de mot de passe -->
+
+                                    <!-- <label for="MotDePasse" class="form-label text-left " style="margin-top: 3%; margin-bottom: 1%; margin-left: 3.5%; font-family: Italic;"> <strong>Mot de Passe</strong> </label> 
+                    
+                                    <input type="password" name="" id="" class="form-control " placeholder="Mot de passe" style="border-radius:60px ;background-color: rgb(217, 217, 217);">
+
+                                   -->
+                                     <div class="form-floating mt-3">
+                                        <input type="password" class="form-control" id="floatingPassword" placeholder="Mot de passe" style="border-radius: 70px; background-color: rgb(217, 217, 217);">
+                                        <label for="floatingPassword">Mot de passe</label>
+                                    </div>
+                                    <!-- champ pour image -->
+
+                                    <!-- <label for="MotDePasse" class="form-label text-left " style="margin-top: 3%; margin-bottom: 1%; margin-left: 3.5%; font-family: Italic;"> <strong>Url de votre image</strong> </label> 
+                                    <input type="file" class="form-control" style="margin-top: 3%; margin-bottom: 1%; border-radius:60px ;background-color: rgb(217, 217, 217);"> -->
+
+                                    
+                                    <div class="form-floating mt-3">
+                                        <input type="file" class="form-control" id="floatingPassword" placeholder="Email" style="border-radius: 70px; background-color: rgb(217, 217, 217);">
+                                        <label for="floatingPassword">Url image</label>
+                                    </div>
+
+                                        <button class="  form-control text-center my-4 text-white" style="width: 70%; border-radius:60px ; margin-left: 15%; background-color: rgb(2, 156, 177);"> <a href="./client Module/Acceuil.html" class="text-decoration-none text-white">Creer un compte</a></button>
+                                    <!-- boutton se creer un compte -->
+                    
+                                        <!-- <input type="submit " value="Creer un compte" class="  form-control text-center my-4 text-white" style="width: 70%; border-radius:60px ; margin-left: 15%; background-color: rgb(2, 156, 177);"> -->
+                                </form>
+
+                            </div>
+                            
+                            <div class="col-md-5 col-12 text-center  " style="background-color: rgba(2, 157, 177, 0.451); border-radius:  0 15px  15px 0;">
+                                <div > 
+                                <div  style="margin-top: 90%;">
+                                        <h4 class="text-white"> Veuillez créer votre compte maintenant </h4>
+                                        <h3 ><strong  style="font-family: Extra Bold Italic;"><span class="text-white"></span><span class="text-white"></span></strong></h3>
+                                        
+                                
+
+                                    <!-- <p class="h6 mt-3 text-white">vous n'avez pas de compte ?</p> -->
+
+                                
+                                </div>
+                               </div>
+
+
+                            </div>
+                        </div>
+
+                    <!-- </div> -->
+
+                </div>
+             
+                
+          
+
+            </div>
+
+            <div class="col-md-3">
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+    
+</body>
+</html>

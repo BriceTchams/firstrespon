@@ -1,0 +1,43 @@
+
+<div class="modal" id="myModal1">
+        <div class="modal-dialog">
+          <div class="modal-content bg-white">
+      
+            <!-- Modal Header -->
+            <div class="modal-header ">
+              <h3 class="text-center  text-dark " style="margin-left:30%;"><strong>Nouveau Admin</strong></h3>
+              <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"></button> -->
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+                <form action="./insert.php" class="form mx-3 " method = "post" enctype="multipart/form-data" >
+
+                
+                 
+            
+            
+                     <div class="form-floating mt-3">
+                        <input type="number" name="password" class="form-control" id="floatingPassword" placeholder="Mot de passe" style="border-radius: 70px; background-color: rgb(217, 217, 217);" required>
+                        <label for="floatingPassword">Mot de passe</label>
+                    </div>
+                  
+                   
+            
+                        <!-- <button type ="submit" class=" bg-dark  form-control text-center my-4 text-white" style="width: 70%; border-radius:60px ; margin-left: 15%;  height: 60px;  "> Creer un compte</button> -->
+
+                       <input type="submit" value="Enregistrer" name = "valider"
+                      class="  bg-dark  form-control text-center my-4 text-white"  style="width: 70%; border-radius:60px ; margin-left: 15%;  height: 60px;  ">
+                </form>   
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fermer</button>
+            </div>
+      
+          </div>
+       
+        </div>
+
+      </div>
